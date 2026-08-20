@@ -1,0 +1,67 @@
+<svg viewBox="0 0 440 270" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050508"/>
+      <stop offset="55%" stop-color="#0A0A0F"/>
+      <stop offset="100%" stop-color="#12081f"/>
+    </linearGradient>
+    <filter id="mcg11" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="lineFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+<rect width="440" height="270" rx="10" fill="url(#bgGrad)"/>
+<circle cx="270.6" cy="237.2" r="1.0" fill="#C4B5FD" opacity="0.71"/>
+<circle cx="321.0" cy="194.7" r="1.44" fill="#F5F5F7" opacity="0.27"/>
+<circle cx="152.5" cy="38.7" r="1.47" fill="#F5F5F7" opacity="0.29"/>
+<circle cx="194.5" cy="63.9" r="0.65" fill="#C4B5FD" opacity="0.58"/>
+<circle cx="225.0" cy="109.6" r="1.54" fill="#F5F5F7" opacity="0.47"><animate attributeName="opacity" values="0.47;0.05;0.47" dur="3.76s" repeatCount="indefinite"/></circle>
+<circle cx="182.2" cy="119.1" r="0.77" fill="#F5F5F7" opacity="0.76"/>
+<circle cx="360.4" cy="64.6" r="0.88" fill="#F5F5F7" opacity="0.87"/>
+<circle cx="38.3" cy="201.2" r="0.61" fill="#A855F7" opacity="0.85"/>
+<circle cx="240.8" cy="71.3" r="0.56" fill="#F5F5F7" opacity="0.52"/>
+<circle cx="235.2" cy="171.9" r="1.22" fill="#C4B5FD" opacity="0.56"/>
+<circle cx="155.8" cy="131.1" r="1.16" fill="#C4B5FD" opacity="0.31"/>
+<circle cx="172.4" cy="24.3" r="0.64" fill="#F5F5F7" opacity="0.67"/>
+<circle cx="262.3" cy="246.9" r="0.76" fill="#C4B5FD" opacity="0.75"/>
+<circle cx="188.1" cy="51.0" r="0.74" fill="#F5F5F7" opacity="0.47"/>
+<circle cx="193.8" cy="199.6" r="1.48" fill="#F5F5F7" opacity="0.87"/>
+<circle cx="247.6" cy="193.5" r="1.09" fill="#A855F7" opacity="0.49"/>
+<path d="M10,26 L10,10 L26,10" stroke="#A855F7" stroke-width="1.3" fill="none" opacity="0.85"/>
+<path d="M414,10 L430,10 L430,26" stroke="#A855F7" stroke-width="1.3" fill="none" opacity="0.85"/>
+<path d="M430,244 L430,260 L414,260" stroke="#A855F7" stroke-width="1.3" fill="none" opacity="0.85"/>
+<path d="M26,260 L10,260 L10,244" stroke="#A855F7" stroke-width="1.3" fill="none" opacity="0.85"/>
+
+<text x="26" y="38" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" fill="#8B5CF6" letter-spacing="3">MISSION 01</text>
+<circle cx="410" cy="33" r="4" fill="#22c55e">
+  <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<text x="400" y="38" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10" fill="#A1A1AA">COMPLETE</text>
+
+<text x="26" y="70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="19" font-weight="700" fill="#F5F5F7">MESSAGEMATE AI</text>
+<line x1="26" y1="82" x2="414" y2="82" stroke="url(#lineFade)" stroke-width="1"/>
+
+<text x="26" y="104" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10" fill="#A1A1AA" letter-spacing="2">SYSTEM</text>
+<text x="26" y="122" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" fill="#A855F7">AI APPLICATION</text>
+
+<text x="26" y="150" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10" fill="#A1A1AA" letter-spacing="2">STACK</text>
+<text x="26" y="168" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11.5" fill="#F5F5F7">React &#183; FastAPI &#183; TypeScript &#183; OpenAI API</text>
+
+<text font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" fill="#A1A1AA"><tspan x="26" y="198">AI-powered message rewriting tool with a typed API</tspan><tspan x="26" y="213">layer &#8212; built as a product, not a prompt demo.</tspan></text>
+
+<rect x="26" y="230" width="388" height="26" rx="4" fill="#8B5CF6" opacity="0.12" stroke="#A855F7" stroke-width="1"/>
+<text x="220.0" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" fill="#A855F7" letter-spacing="1">[ EXPLORE MISSION &#8594; ]</text>
+</svg>

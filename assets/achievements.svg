@@ -1,0 +1,72 @@
+<svg viewBox="0 0 900 210" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050508"/>
+      <stop offset="55%" stop-color="#0A0A0F"/>
+      <stop offset="100%" stop-color="#12081f"/>
+    </linearGradient>
+    <filter id="aGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="lineFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+<rect width="900" height="210" rx="10" fill="url(#bgGrad)"/>
+<circle cx="63.7" cy="87.5" r="0.62" fill="#C4B5FD" opacity="0.74"/>
+<circle cx="610.4" cy="157.2" r="0.8" fill="#F5F5F7" opacity="0.55"/>
+<circle cx="453.8" cy="176.9" r="1.16" fill="#A855F7" opacity="0.62"><animate attributeName="opacity" values="0.62;0.12;0.62" dur="3.87s" repeatCount="indefinite"/></circle>
+<circle cx="89.4" cy="151.2" r="0.86" fill="#C4B5FD" opacity="0.48"/>
+<circle cx="847.9" cy="129.3" r="1.23" fill="#C4B5FD" opacity="0.7"/>
+<circle cx="691.2" cy="17.2" r="0.78" fill="#A855F7" opacity="0.64"><animate attributeName="opacity" values="0.64;0.14;0.64" dur="4.36s" repeatCount="indefinite"/></circle>
+<circle cx="295.0" cy="121.7" r="1.56" fill="#C4B5FD" opacity="0.57"/>
+<circle cx="342.1" cy="199.2" r="1.35" fill="#C4B5FD" opacity="0.61"/>
+<circle cx="14.4" cy="191.0" r="1.44" fill="#A855F7" opacity="0.86"><animate attributeName="opacity" values="0.86;0.36;0.86" dur="3.79s" repeatCount="indefinite"/></circle>
+<circle cx="337.8" cy="138.1" r="0.98" fill="#F5F5F7" opacity="0.46"/>
+<circle cx="683.1" cy="64.2" r="1.03" fill="#A855F7" opacity="0.42"/>
+<circle cx="95.7" cy="86.3" r="1.44" fill="#C4B5FD" opacity="0.67"/>
+<circle cx="581.0" cy="50.8" r="0.95" fill="#F5F5F7" opacity="0.59"/>
+<circle cx="335.8" cy="181.9" r="1.18" fill="#F5F5F7" opacity="0.72"/>
+<circle cx="679.4" cy="203.2" r="0.59" fill="#A855F7" opacity="0.76"/>
+<circle cx="607.3" cy="200.9" r="1.29" fill="#F5F5F7" opacity="0.55"/>
+<circle cx="417.1" cy="176.5" r="0.64" fill="#C4B5FD" opacity="0.68"><animate attributeName="opacity" values="0.68;0.18000000000000005;0.68" dur="3.38s" repeatCount="indefinite"/></circle>
+<circle cx="310.6" cy="118.3" r="1.57" fill="#C4B5FD" opacity="0.87"/>
+<circle cx="474.0" cy="112.8" r="1.51" fill="#F5F5F7" opacity="0.26"/>
+<circle cx="438.7" cy="56.4" r="1.39" fill="#F5F5F7" opacity="0.78"/>
+<path d="M14,34 L14,14 L34,14" stroke="#A855F7" stroke-width="1.4" fill="none" opacity="0.85"/>
+<path d="M866,14 L886,14 L886,34" stroke="#A855F7" stroke-width="1.4" fill="none" opacity="0.85"/>
+<path d="M886,176 L886,196 L866,196" stroke="#A855F7" stroke-width="1.4" fill="none" opacity="0.85"/>
+<path d="M34,196 L14,196 L14,176" stroke="#A855F7" stroke-width="1.4" fill="none" opacity="0.85"/>
+<text x="34" y="42" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15" font-weight="700" fill="#F5F5F7" letter-spacing="4">ACHIEVEMENTS UNLOCKED</text>
+<line x1="34" y1="54" x2="866" y2="54" stroke="url(#lineFade)" stroke-width="1"/>
+
+<rect x="34.0" y="70" width="264.0" height="110" rx="8" fill="#ffffff" opacity="0.035" stroke="#8B5CF6" stroke-width="1"/>
+<polygon points="166.0,84 182.0,96 182.0,112 166.0,124 150.0,112 150.0,96"
+  fill="#8B5CF6" opacity="0.25" stroke="#A855F7" stroke-width="1.3"/>
+<text x="166.0" y="109" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13" fill="#A855F7">&#9679;</text>
+<text x="166.0" y="146" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" fill="#F5F5F7" letter-spacing="0.5">FIRST AI SYSTEM</text>
+<text text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10" fill="#A1A1AA"><tspan x="166.0" y="162">Built MessageMate AI</tspan></text>
+<rect x="318.0" y="70" width="264.0" height="110" rx="8" fill="#ffffff" opacity="0.035" stroke="#8B5CF6" stroke-width="1"/>
+<polygon points="450.0,84 466.0,96 466.0,112 450.0,124 434.0,112 434.0,96"
+  fill="#8B5CF6" opacity="0.25" stroke="#A855F7" stroke-width="1.3"/>
+<text x="450.0" y="109" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13" fill="#A855F7">&#9679;</text>
+<text x="450.0" y="146" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" fill="#F5F5F7" letter-spacing="0.5">SEMANTIC EXPLORER</text>
+<text text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10" fill="#A1A1AA"><tspan x="450.0" y="162">Shipped a vector-search</tspan><tspan x="450.0" y="175">recommender</tspan></text>
+<rect x="602.0" y="70" width="264.0" height="110" rx="8" fill="#ffffff" opacity="0.035" stroke="#8B5CF6" stroke-width="1"/>
+<polygon points="734.0,84 750.0,96 750.0,112 734.0,124 718.0,112 718.0,96"
+  fill="#8B5CF6" opacity="0.25" stroke="#A855F7" stroke-width="1.3"/>
+<text x="734.0" y="109" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13" fill="#A855F7">&#9679;</text>
+<text x="734.0" y="146" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" fill="#F5F5F7" letter-spacing="0.5">FULL-STACK ENGINEER</text>
+<text text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10" fill="#A1A1AA"><tspan x="734.0" y="162">Built a management system</tspan><tspan x="734.0" y="175">w/ real auth</tspan></text>
+</svg>
