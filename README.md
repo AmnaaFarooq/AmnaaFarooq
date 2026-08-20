@@ -22,8 +22,6 @@
 <img src="assets/tshape.svg" width="100%" alt="T-shaped breadth to depth signal map"/>
 </div>
 
-<br/>
-
 <div align="center">
 
 ### 🚀 FEATURED MISSIONS
